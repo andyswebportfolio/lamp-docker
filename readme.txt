@@ -10,12 +10,12 @@
 #####
 Tl;DR / BLUF
 
-Step 1.
-Pop this in to terminal locally after navigating to a new project folder.
-gh repo clone andyswebportfolio/lamp-docker
+Use this.
+gh repo clone andyswebportfolio/lamp-docker; cd lamp-docker; rm -r -f .git; git init; cp -R . ../; 
 
-Step 2.
-There is no step 2! Happy building!
+In english:
+Clone lamp-docker, open it, delete git, make a new git (break the connection to lamp-docker), copy it out of the lamp-docker folder, delete the lamp-docker folder.
+
 
 #####
 What?
