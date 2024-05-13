@@ -51,7 +51,8 @@ How?
 
 Recommended:
 # Update versions of the programs used in the Docker Compose File, or
-# Update to latest version of lamp-docker by pulling it as above, then manually importing html and mysql_data respectively
+# Update to new version of lamp-docker by pulling it as above, then:
+# import your html, mysql_data and .git files respectively.
 
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
