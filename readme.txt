@@ -11,10 +11,22 @@
 Tl;DR / BLUF
 
 Use this.
-gh repo clone andyswebportfolio/lamp-docker; cd lamp-docker; rm -r -f .git; git init; cp -R . ../; 
+gh repo clone andyswebportfolio/lamp-docker;
+cd lamp-docker;
+rm -r -f .git;
+git init;
+cp -R . ../;
+cd ../;
+rm -r -f lamp-docker;
 
 In english:
-Clone lamp-docker, open it, delete git, make a new git (break the connection to lamp-docker), copy it out of the lamp-docker folder, delete the lamp-docker folder.
+Clone lamp-docker, 
+open it, 
+delete git,
+make a new git (break the connection to lamp-docker), 
+copy it out of the lamp-docker folder, 
+delete the lamp-docker folder.
+Overwrite the readme (Not yet created)
 
 
 #####
@@ -38,7 +50,8 @@ How?
 # Delete the git file and the readme
 
 Recommended:
-# Update versions of the programs used in the Docker Compose File
+# Update versions of the programs used in the Docker Compose File, or
+# Update to latest version of lamp-docker by pulling it as above, then manually importing html and mysql_data respectively
 
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
