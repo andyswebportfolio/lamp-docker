@@ -6,6 +6,17 @@
  |_|\__,_|_| |_| |_| .__/      \__,_|\___/ \___|_|\_\___|_|   
                    | |                                        
                    |_|                                        
+
+#####
+Tl;DR / BLUF
+
+Step 1.
+Pop this in to terminal locally after navigating to a new project folder.
+gh repo clone andyswebportfolio/lamp-docker
+
+Step 2.
+There is no step 2! Happy building!
+
 #####
 What?
 
