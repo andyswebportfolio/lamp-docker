@@ -11,6 +11,8 @@
 Tl;DR / BLUF
 
 Use this.
+mkdir www;
+cd www;
 gh repo clone andyswebportfolio/lamp-docker;
 cd lamp-docker;
 rm -r -f .git;
@@ -20,7 +22,9 @@ cd ../;
 rm -r -f lamp-docker;
 
 In english:
-Clone lamp-docker, 
+Make a folder,
+Open it,
+Clone lamp-docker,
 open it, 
 delete git,
 make a new git (break the connection to lamp-docker), 
